@@ -10,7 +10,6 @@ class Cursor(x, y):
   def __init__(self):
     self.x = x
     self.y = y
-    self.set()
   def set(self):
     for i in range(x):
       print(" ", end="")
@@ -21,3 +20,19 @@ class Cursor(x, y):
     self.y = self.y + y
     self.set()
   
+class Rectangle(height, width, location):
+  def __init__(self):
+    self.height = height
+    self.width = width
+    self.location = location
+    location.set()
+  def display(self):
+    for i in range(width):
+      print("-", end="")
+    for j in range(height):
+      print("|", end="")
+      for q in range(width - 2):
+        print(" ", end="")
+      print("|")
+    for i in range(width):
+      print("-", end="")

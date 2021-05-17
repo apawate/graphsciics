@@ -11,10 +11,10 @@ class Cursor:
     self.x = x
     self.y = y
   def set(self):
-    for i in range(self.x):
-      print(" ", end="")
     for j in range(self.y):
       print(" ")
+    for i in range(self.x):
+      print(" ", end="")
   def move(self, x, y):
     self.x = self.x + x
     self.y = self.y + y

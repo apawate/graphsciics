@@ -1,38 +1,40 @@
-class Canvas(height, width):
-  def __init__(self):
+class Canvas:
+  def __init__(self, height, width):
     self.height = height
     self.width = width
-  def draw(figure):
+  def draw(self, figure):
     figure.display()
   
     
-class Cursor(x, y):
-  def __init__(self):
+class Cursor:
+  def __init__(self, x, y):
     self.x = x
     self.y = y
   def set(self):
-    for i in range(x):
+    for i in range(self.x):
       print(" ", end="")
-    for j in range(y):
+    for j in range(self.y):
       print(" ")
-  def move(x, y):
+  def move(self, x, y):
     self.x = self.x + x
     self.y = self.y + y
     self.set()
   
-class Rectangle(height, width, location):
-  def __init__(self):
+class Rectangle:
+  def __init__(self, height, width, location):
     self.height = height
     self.width = width
     self.location = location
     location.set()
   def display(self):
-    for i in range(width):
+    for i in range(self.width):
       print("-", end="")
-    for j in range(height):
+    print()
+    for j in range(self.height):
       print("|", end="")
-      for q in range(width - 2):
+      for q in range(self.width - 2):
         print(" ", end="")
       print("|")
-    for i in range(width):
+    for i in range(self.width):
       print("-", end="")
+    print()

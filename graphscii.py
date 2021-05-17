@@ -31,10 +31,14 @@ class Rectangle:
       print("-", end="")
     print()
     for j in range(self.height):
+      for i in range(self.location.x):
+        print(" ", end="")
       print("|", end="")
       for q in range(self.width - 2):
         print(" ", end="")
       print("|")
+    for i in range(self.location.x):
+        print(" ", end="")
     for i in range(self.width):
       print("-", end="")
     print()

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+graphsciics/__init__.py
+graphsciics/graphsciics.py
+graphsciics.egg-info/PKG-INFO
+graphsciics.egg-info/SOURCES.txt
+graphsciics.egg-info/dependency_links.txt
+graphsciics.egg-info/top_level.txt

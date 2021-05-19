@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: graphsciics
+Version: 0.0.1
+Summary: A Python library for making graphics using ASCII characters.
+Home-page: https://github.com/apawate/graphsciics
+Author: Agastya Pawate
+Author-email: apawate739@student.fuhsd.org
+License: UNKNOWN
+Description: # graphscii
+        A Python library for ascii-based graphics
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

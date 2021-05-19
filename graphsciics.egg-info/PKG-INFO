@@ -1,13 +1,31 @@
 Metadata-Version: 2.1
 Name: graphsciics
-Version: 0.0.1
+Version: 0.0.2
 Summary: A Python library for making graphics using ASCII characters.
 Home-page: https://github.com/apawate/graphsciics
 Author: Agastya Pawate
 Author-email: apawate739@student.fuhsd.org
 License: UNKNOWN
-Description: # graphscii
-        A Python library for ascii-based graphics
+Description: # graphsciics
+        A Python library for ascii-based graphics, with basic animation support as of version 0.0.2.
+        
+        Usage:
+        
+        `from graphsciics.graphsciics import *`
+        
+        `from graphsciics.animate import *`
+        
+        `canvas = Canvas(1, 1)`
+        
+        `rect1 = Rectangle(1, 1, Cursor(0, 0))`
+        
+        `rect2 = Rectangle(2, 2, Cursor(0, 0))`
+        
+        `anim.addframe(rect1)`
+        
+        `anim.addframe(rect2)`
+        
+        `canvas.draw(anim)`
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3

@@ -13,6 +13,8 @@ Usage:
 
 `rect2 = Rectangle(2, 2, Cursor(0, 0))`
 
+`anim = Animation(1)`
+
 `anim.addframe(rect1)`
 
 `anim.addframe(rect2)`

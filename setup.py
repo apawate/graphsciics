@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="graphsciics",
-    version="0.0.2",
+    version="0.0.3",
     author="Agastya Pawate",
     author_email="apawate739@student.fuhsd.org",
     description="A Python library for making graphics using ASCII characters.",

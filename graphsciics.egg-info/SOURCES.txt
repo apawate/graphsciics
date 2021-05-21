@@ -3,6 +3,7 @@ README.md
 setup.py
 graphsciics/__init__.py
 graphsciics/animate.py
+graphsciics/custom.py
 graphsciics/graphsciics.py
 graphsciics.egg-info/PKG-INFO
 graphsciics.egg-info/SOURCES.txt

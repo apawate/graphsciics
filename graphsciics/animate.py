@@ -9,6 +9,7 @@ class Animation:
 	def addframe(self, obj):
 		self.frames.append(obj)
 	def display(self):
+		os.system("clear")
 		for shape in self.frames:
 			shape.display()
 			time.sleep(self.delay)
